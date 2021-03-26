@@ -1,3 +1,6 @@
+
+trigger:
+- master
 # Python to Linux Web App on Azure
 - task: AzureWebApp@1
   inputs:
@@ -8,9 +11,6 @@
 # Build your Python project and deploy it to Azure as a Linux Web App.
 # Change python version to one thats appropriate for your application.
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python.
-
-trigger:
-- master
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
